@@ -23,6 +23,17 @@ header, main{
 span{
     color: var(--highlights);
 }
+.title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+.text-style{
+    color: rgb(117, 117, 117);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 25px;
+}
 .primary-btn{
     background-color: tomato;
     color: white;
@@ -64,8 +75,6 @@ nav > ul{
 }
 nav > ul > li{
     font-size: 1.2rem;
-    font-weight: 400;
-    color: rgb(92, 92, 92);
     cursor: pointer;
 }
 .nav-icon{
@@ -129,3 +138,39 @@ form > select, form > input::placeholder{
     font-size: 1rem;
 }
 /* Header Section ends here */
+
+/* Popular Tours section starts here */
+.popular-tours-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 80px;
+}
+.popular-tours-contents{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.popular-tours-contents > h1{
+    text-align: left;
+}
+.popular-tours-items{
+    padding-left: 20px;
+}
+.popular-tours-items > *{
+    padding: 8px 0;
+}
+.popular-tours-image{
+    width: 50%;
+    height: fit-content;
+}
+.popular-tours-image > img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Popular Tours section ends here */
+
