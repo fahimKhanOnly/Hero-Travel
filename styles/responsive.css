@@ -13,6 +13,14 @@
     .popular-tours-image{
         height: 500px;
     }
+    .destination-scenario{
+        gap: 18px;
+    }
+    .destination-scenario > div, .destination-scenario > div > img{
+        width: 750px;
+        height: 350px;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 800px) {
     .header-info{
@@ -44,6 +52,10 @@
     .popular-tours-image{
         width: 550px;
     }
+    .destination-scenario > div, .destination-scenario > div > img{
+        max-width: 556px;
+        height: 340px;
+    }
 }
 @media screen and (max-width: 585px) {
     p, li{
@@ -68,6 +80,10 @@
     }
     .popular-tours-container{
         margin-bottom: 50px;
+    }
+    .destination-scenario > div, .destination-scenario > div > img{
+        width: 400px;
+        height: 305px;
     }
 }
 @media screen and (max-width: 425px){
@@ -110,5 +126,12 @@
     }
     .popular-tours-image{
         height: 350px;
+    }
+    .destination-scenario > div > h4{
+        font-size: 1.2rem;
+    }
+    .destination-scenario > div, .destination-scenario > div > img{
+        width: 290px;
+        height: 220px;
     }
 }

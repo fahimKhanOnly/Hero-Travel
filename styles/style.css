@@ -174,3 +174,35 @@ form > select, form > input::placeholder{
 
 /* Popular Tours section ends here */
 
+/* Destination section starts here */
+.destination-intro{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto 31px auto;
+}
+.destination-intro > p{
+    margin-top: 20px;
+    text-align: center;
+}
+.destination-scenario{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+.destination-scenario > div{
+    color: white;
+    position: relative;
+}
+.destination-scenario > div > h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.55rem;
+    font-weight: 800;
+}
+.destination-scenario > div > img{
+    border-radius: 18px;
+}
+/* Destination section ends here */
