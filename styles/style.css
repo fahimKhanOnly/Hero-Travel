@@ -19,6 +19,7 @@ header, main{
     --description-color: rgba(53, 53, 53, 0.329);
     --highlights: tomato;
     --btn-bg: tomato;
+    --primary-intro-width: 800px
 }
 span{
     color: var(--highlights);
@@ -175,10 +176,11 @@ form > select, form > input::placeholder{
 /* Popular Tours section ends here */
 
 /* Destination section starts here */
+.destination-container{
+    margin-bottom: 80px;
+}
 .destination-intro{
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: var(--primary-intro-width);
     margin: 0 auto 31px auto;
 }
 .destination-intro > p{
@@ -206,3 +208,49 @@ form > select, form > input::placeholder{
     border-radius: 18px;
 }
 /* Destination section ends here */
+
+/* Choose section starts here */
+.choose-intro{
+    max-width: var(--primary-intro-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+.choose-intro > p{
+    margin-top: 20px;
+    text-align: center;
+}
+.choose-items{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.choose-items > div{
+    max-width: 550px;
+    padding: 30px 40px 30px 30px;
+    border-radius: 18px;
+}
+.choose-items > div > h4{
+    font-size: 1.48rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.choose-items > div > img{
+    width: 70px;
+    height: 70px;
+}
+.choose-item1{
+    background-color: rgba(241, 172, 45, 0.075);
+    border: 1px solid rgba(247, 186, 73, 0.356);
+}
+.choose-item2{
+    background-color: rgba(139, 217, 248, 0.075);
+    border: 1px solid rgba(139, 217, 248, 0.356);
+}
+.choose-item3{
+    transform: translate(50%);
+    background-color: rgba(255, 22, 22, 0.075);
+    border: 1px solid rgba(253, 96, 96, 0.355);
+}
+/* Choose section ends here */

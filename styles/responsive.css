@@ -56,6 +56,17 @@
         max-width: 556px;
         height: 340px;
     }
+    .choose-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choose-item3{
+        transform: translate(0);
+    }
+    .choose-intro{
+        padding: 0 30px;
+    }
 }
 @media screen and (max-width: 585px) {
     p, li{
@@ -84,6 +95,12 @@
     .destination-scenario > div, .destination-scenario > div > img{
         width: 400px;
         height: 305px;
+    }
+    .choose-intro{
+        padding: 0 15px;
+    }
+    .choose-items > div{
+        padding: 20px 25px 20px 20px;
     }
 }
 @media screen and (max-width: 425px){
