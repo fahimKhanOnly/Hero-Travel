@@ -246,7 +246,7 @@ form > select, form > input::placeholder{
 }
 .choose-item2{
     background-color: rgba(139, 217, 248, 0.075);
-    border: 1px solid rgba(139, 217, 248, 0.356);
+    border: 1px solid rgba(139, 217, 248, 0.366);
 }
 .choose-item3{
     transform: translate(50%);
@@ -254,3 +254,72 @@ form > select, form > input::placeholder{
     border: 1px solid rgba(253, 96, 96, 0.355);
 }
 /* Choose section ends here */
+
+/* Deals section starts here */
+.deals-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.deals-intro{
+    max-width: var(--primary-intro-width);
+    margin: 80px auto 10px auto;
+}
+.deals-intro > p{
+    text-align: center;
+    margin-top: 22px;
+}
+.deals-1{
+    background: url(../assets/deals-bg-1.png);
+    display: flex;
+    justify-content: end;    
+    height: 500px;
+    background-position: center;
+    border-radius: 15px;
+}
+.times-and-places{
+    max-width: fit-content;
+    display: flex;
+    gap: 30px;
+}
+.times-and-places > p{
+    color: rgba(53, 53, 53, 0.616);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.times-and-places > p > i{
+    color: var(--highlights);
+    font-size: 1rem;
+}
+.deals-1 > div, .deals-2 > div{
+    background-color: rgba(255, 255, 255, 0.829);
+    max-width: 41%;
+    border-radius: 19px;
+    padding: 40px 50px 40px 40px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.deals-2{
+    height: 500px;
+    background: url(../assets/deals-bg-2.png);
+    display: flex;
+    justify-content: start;
+    background-position: center;
+    border-radius: 15px;
+}
+.deals-1 > div > h4, .deals-2 > div > h4{
+    font-weight: 800;
+    font-size: 1.3rem;
+    /* margin-top: 10px; */
+}
+.price{
+    color: var(--highlights);
+    font-size: 1.22rem;
+    font-weight: 800;
+}
+
+/* Deals section ends here */

@@ -21,6 +21,17 @@
         height: 350px;
         margin: 0 auto;
     }
+    .deals-1, .deals-2{
+        height: 480px;
+    }
+    .deals-1 > div, .deals-2 > div{
+        padding: 25px;
+        margin: 30px;
+    }
+    .times-and-places{
+        flex-wrap: wrap;
+        gap: 8px 20px;
+    }
 }
 @media screen and (max-width: 800px) {
     .header-info{
@@ -67,11 +78,22 @@
     .choose-intro{
         padding: 0 30px;
     }
+    .deals-1 > div, .deals-2 > div{
+        padding: 20px 30px 20px 20px;
+        margin: 18px;
+    }
+    .times-and-places > p, .times-and-places > p > i{
+        font-size: 0.94rem;
+    }
 }
 @media screen and (max-width: 585px) {
     p, li{
         font-size: 1rem;
         line-height: 23px;
+    }
+    .primary-btn{
+        width: 160px;
+        height: 41px;
     }
     .title{
         font-size: 2.1rem;
@@ -101,6 +123,20 @@
     }
     .choose-items > div{
         padding: 20px 25px 20px 20px;
+    }
+    .deals-1, .deals-2{
+        height: 500px;
+        align-items: end;
+    }
+    .deals-1 > div, .deals-2 > div{
+        max-width: 100%;
+        gap: 10px;
+        height: 320px;
+        margin: 14px;
+        padding: 16px;
+    }
+    form > button{
+        height: 50px !important;
     }
 }
 @media screen and (max-width: 425px){
@@ -140,6 +176,7 @@
     }
     form > button{
         width: 100% !important;
+        height: 50px !important;
     }
     .popular-tours-image{
         height: 350px;
@@ -150,5 +187,8 @@
     .destination-scenario > div, .destination-scenario > div > img{
         width: 290px;
         height: 220px;
+    }
+    .deals-container{
+        gap: 20px;
     }
 }
