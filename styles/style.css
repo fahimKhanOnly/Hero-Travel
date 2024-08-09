@@ -321,3 +321,29 @@ form > select, form > input::placeholder{
     font-weight: 800;
 }
 /* Deals section ends here */
+
+/* Perfect Place section starts here */
+.perfect-place-container{
+    margin-top: 100px;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.perfect-place-contents{
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.perfect-place-contents > h1{
+    text-align: left;
+    max-width: 90%;
+}
+.perfect-place-review > iframe{
+    border-radius: 15px;
+}
+/* Perfect Place section ends here */

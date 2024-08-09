@@ -32,6 +32,10 @@
         flex-wrap: wrap;
         gap: 8px 20px;
     }
+    .perfect-place-review > iframe{
+        width: 400px;
+        height: 300px;
+    }
 }
 @media screen and (max-width: 800px) {
     .header-info{
@@ -85,6 +89,18 @@
     .times-and-places > p, .times-and-places > p > i{
         font-size: 0.94rem;
     }
+    .perfect-place-container{
+        margin-top: 60px;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .perfect-place-contents{
+        max-width: 85vw;
+    }
+    .perfect-place-review > iframe{
+        width: 85vw;
+        height: 400px;
+    }
 }
 @media screen and (max-width: 585px) {
     p, li{
@@ -137,6 +153,13 @@
     }
     form > button{
         height: 50px !important;
+    }
+    .perfect-place-contents{
+        max-width: 90vw;
+    }
+    .perfect-place-review > iframe{
+        width: 90vw;
+        height: 260px;
     }
 }
 @media screen and (max-width: 425px){
@@ -204,5 +227,13 @@
     .price{
         font-size: 1rem;
         font-weight: 800;
+    }
+    .perfect-place-contents > h1{
+        max-width: 98%;
+    }
+    .perfect-place-review > iframe{
+        width: 90vw;
+        height: 190px;
+        border-radius: 10px;
     }
 }
