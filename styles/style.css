@@ -314,12 +314,10 @@ form > select, form > input::placeholder{
 .deals-1 > div > h4, .deals-2 > div > h4{
     font-weight: 800;
     font-size: 1.3rem;
-    /* margin-top: 10px; */
 }
 .price{
     color: var(--highlights);
     font-size: 1.22rem;
     font-weight: 800;
 }
-
 /* Deals section ends here */
