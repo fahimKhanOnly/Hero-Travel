@@ -390,6 +390,7 @@ form > div > input{
     outline: none;
     border-radius: 9px;
     padding-left: 15px;
+    font-size: 1.2rem;
 }
 form > div > input::placeholder{
     color: rgba(128, 127, 127, 0.568);
@@ -430,3 +431,56 @@ form > div > button{
     font-weight: 800;
 }
 /* Newsletter section ends here */
+
+/* Footer section starts here */
+footer{
+    background-color: #b8b8b856;
+}
+.footer-container{
+    max-width: 890px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+.footer-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.socials > a{
+    font-size: 1.7rem;
+    margin: 10px;
+    color: black;
+}
+.footer-contents > p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(43, 42, 42, 0.664);
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-logo > h1{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.copyright-section{
+    border-top: 1px solid rgba(187, 187, 187, 0.336);
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.copyright-section > p{
+    text-align: center;
+    color: rgba(43, 42, 42, 0.664);
+}
+/* Footer section ends here */
