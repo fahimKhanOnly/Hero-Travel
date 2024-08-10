@@ -129,7 +129,6 @@ form > input, form > select{
     border-right: 15px solid transparent;
     font-size: 1.2rem;
     border-radius: 9px;
-    /* width: 170px; */
 }
 form > select, form > input{
     padding-left: 15px;
@@ -347,3 +346,87 @@ form > select, form > input::placeholder{
     border-radius: 15px;
 }
 /* Perfect Place section ends here */
+
+/* Newsletter section starts here */
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 420px;
+    gap: 20px;
+    margin-top: 80px;
+}
+.newsletter-form{
+    max-width: 40vw;
+    height: 100%;
+    border: 1px solid tomato;
+    border-radius: 16px;
+    padding: 0 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.newsletter-form > form{
+    background-color: transparent;
+    padding: 0;
+}
+form > div{
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0 0 0;
+    border-radius: 0;
+    gap: 22px;
+    width: 100%;
+    border-top: 1px solid rgba(187, 187, 187, 0.336);
+}
+.newsletter-form > h4{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+form > div > input{
+    background-color: rgba(187, 187, 187, 0.326);
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    padding-left: 15px;
+}
+form > div > input::placeholder{
+    color: rgba(128, 127, 127, 0.568);
+    font-size: 1rem;
+}
+form > div > button{
+    width: 100% !important;
+}
+.news-bg{
+    width: 670px;
+    background: url(../assets/discount-bg.png);
+    height: 420px;
+    border-radius: 16px;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+.news-bg > div{
+    background-color: var(--btn-bg);
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    position: absolute;
+    bottom: 70px;
+    right: 2px;
+    transform: rotate(-29deg);
+}
+.news-bg > div > h5{
+    font-size: 1.45rem;
+    font-weight: 600;
+}
+.news-bg > div > h4{
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+/* Newsletter section ends here */

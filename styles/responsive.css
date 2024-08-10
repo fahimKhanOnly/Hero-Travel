@@ -49,7 +49,7 @@
         display: block;
         font-size: 1.6rem;
     }
-    form{
+    .hero-container > form{
         width: min-content;
         display: grid;
         grid-template-columns: repeat(2, 170px);
@@ -100,6 +100,26 @@
     .perfect-place-review > iframe{
         width: 85vw;
         height: 400px;
+    }
+    .newsletter-container{
+        flex-direction: column;
+        height: fit-content;
+        max-width: 80vw;
+        margin: 70px auto 70px auto;
+    }
+    .newsletter-form{
+        padding: 25px 28px;
+        max-width: 100%;
+    }
+    form > div{
+        margin-top: 20px;
+    }
+    .newsletter-form > h4{
+        margin-bottom: 20px;
+    }
+    .news-bg{
+        max-width: 100%;
+        height: 350px;
     }
 }
 @media screen and (max-width: 585px) {
@@ -161,6 +181,12 @@
         width: 90vw;
         height: 260px;
     }
+    .newsletter-container{
+        max-width: 98vw;
+    }
+    .newsletter-form{
+        padding: 12px 12px;
+    }
 }
 @media screen and (max-width: 425px){
     header, main{
@@ -189,15 +215,15 @@
     .nav-icon{
         font-size: 1.2rem;
     }
-    form{
+    .hero-container > form{
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
     }
-    form > *{
+    .hero-container > form > *{
         height: 45px;
     }
-    form > button{
+    .hero-container > form > button{
         width: 100% !important;
         height: 50px !important;
     }
@@ -235,5 +261,23 @@
         width: 90vw;
         height: 190px;
         border-radius: 10px;
+    }
+    .news-bg{
+        height: 260px;
+    }
+    .newsletter-form > h4{
+        font-size: 1.35em;
+    }
+    .news-bg > div{
+        width: 244px;
+        height: 65px;
+        bottom: 53px;
+        right: -2px;
+    }
+    .news-bg > div > h5{
+        font-size: 1.3rem;
+    }
+    .news-bg > div > h4{
+        font-size: 1.51rem;
     }
 }
