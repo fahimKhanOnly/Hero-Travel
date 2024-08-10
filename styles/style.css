@@ -47,6 +47,7 @@ span{
     border: none;
     outline: none;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 
@@ -77,6 +78,7 @@ nav > ul{
 nav > ul > li{
     font-size: 1.2rem;
     cursor: pointer;
+    transition: all 0.2s;
 }
 .nav-icon{
     display: none;

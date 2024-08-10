@@ -305,3 +305,13 @@
         font-size: 0.9rem;
     }
 }
+
+@media screen and (min-width: 1025px) {
+    nav > ul > li:hover{
+        color: var(--highlights);
+        font-weight: bold;
+    }
+    .primary-btn:hover{
+        background-color: black;
+    }
+}
